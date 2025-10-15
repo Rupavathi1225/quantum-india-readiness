@@ -9,6 +9,12 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  // <-- added preview block to allow Render hostname
+  preview: {
+    port: 8080,
+    allowedHosts: ["quantum-india-readiness.onrender.com"],
+  },
+
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
