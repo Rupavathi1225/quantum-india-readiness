@@ -39,13 +39,19 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button 
-                size="lg" 
-                className="text-lg group shadow-quantum hover:shadow-xl transition-all duration-300"
+              <a 
+                href="https://forms.gle/e1nYKYfSM6Qaph2V7" 
+                target="_blank" 
+                rel="noopener noreferrer"
               >
-                🎓 Take the Pre-Eligibility Survey
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Button>
+                <Button 
+                  size="lg" 
+                  className="text-lg group shadow-quantum hover:shadow-xl transition-all duration-300"
+                >
+                  🎓 Take the Pre-Eligibility Survey
+                  <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </a>
               <Button 
                 size="lg" 
                 variant="outline"

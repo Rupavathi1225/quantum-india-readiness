@@ -27,13 +27,19 @@ const CallToAction = () => {
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                  <Button 
-                    size="lg"
-                    className="text-lg shadow-quantum hover:shadow-xl transition-all duration-300 group"
+                  <a 
+                    href="https://forms.gle/e1nYKYfSM6Qaph2V7" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
                   >
-                    🧾 Take the Pre-Eligibility Survey
-                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                  </Button>
+                    <Button 
+                      size="lg"
+                      className="text-lg shadow-quantum hover:shadow-xl transition-all duration-300 group"
+                    >
+                      🧾 Take the Pre-Eligibility Survey
+                      <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                    </Button>
+                  </a>
                   <div className="flex items-center gap-2 text-sm text-muted-foreground">
                     <Clock className="w-4 h-4" />
                     <span>Only 3 minutes</span>
